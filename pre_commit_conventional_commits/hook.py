@@ -118,8 +118,6 @@ def is_commit_conventional(input, types=DEFAULT_TYPES):
     """
 
     types = convnetional_types_list(types)
-    print(types)
-    print(input)
     pattern = f"^({regex_types(types)}){regex_scope()}{regex_delimiter()}{regex_subject()}$"
     regex = re.compile(pattern, re.DOTALL)
 
