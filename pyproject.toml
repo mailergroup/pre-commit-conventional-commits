@@ -8,8 +8,8 @@ authors = ["Igor Hrček <igor@mailerlite.com>"]
 readme = "README.md"
 
 [project.urls]
-code = "https://github.com/igorhrcek/pre-commit-conventional-commits"
-tracker = "https://github.com/igorhrcek/pre-commit-conventional-commits/issues"
+code = "https://github.com/mailergroup/pre-commit-conventional-commits"
+tracker = "https://github.com/mailergroup/pre-commit-conventional-commits/issues"
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
