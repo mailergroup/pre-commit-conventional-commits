@@ -23,3 +23,24 @@ pre-commit install --hook-type commit-msg
 
 ## Usage
 Write a commit message using incorrect format:
+```bash
+$ git commit -m "wrong format"
+
+Conventional Commit ..............................................Failed
+- hook id: pre-commit-conventional-commits
+- duration: 0.05s
+- exit code: 1
+
+Bad commit message: wrong format
+Your commit message does not follow Conventional Commits formatting.
+
+Conventional Commits start with one of the below types, followed by a colon,
+followed by the commit message:
+
+feat fix
+
+Good examples:
+feat: Added new feature
+feat(billing): Improved invoices
+fix: Fixed speed of execution
+feat!: This is breaking change
