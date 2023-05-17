@@ -2,7 +2,7 @@
 
 A [`pre-commit`](https://pre-commit.com) hook to check commit messages for [Conventional Commits](https://conventionalcommits.org) formatting.
 
-## Usage
+## Installation
 Add the following entry into your `.pre-commit-config.yaml` file:
 ```
 repos:
@@ -20,3 +20,5 @@ Install the script:
 ```
 pre-commit install --hook-type commit-msg
 ```
+
+## Usage
