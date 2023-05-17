@@ -22,3 +22,4 @@ pre-commit install --hook-type commit-msg
 ```
 
 ## Usage
+Write a commit message using incorrect format:
