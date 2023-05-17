@@ -44,3 +44,11 @@ feat: Added new feature
 feat(billing): Improved invoices
 fix: Fixed speed of execution
 feat!: This is breaking change
+```
+
+Write a commit message using correct format:
+```bash
+$ git commit -m "feat: Updated something"
+
+Conventional Commit ..............................................Passed
+```
